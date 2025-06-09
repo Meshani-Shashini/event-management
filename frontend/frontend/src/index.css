@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,97 @@
+.event-update-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.event-update-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.event-update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.event-update-form label {
+  font-weight: 600;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.event-update-form input[type="text"],
+.event-update-form input[type="date"],
+.event-update-form input[type="number"],
+.event-update-form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.event-update-form input[type="text"]:focus,
+.event-update-form input[type="date"]:focus,
+.event-update-form input[type="number"]:focus,
+.event-update-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.event-update-form textarea {
+  min-height: 100px;
+  font-family: inherit;
+}
+
+button, .event-update-form button {
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover, .event-update-form button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+p[style*="green"] {
+  color: #28a745;
+}
+
+p[style*="red"] {
+  color: #dc3545;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.container div {
+  margin-bottom: 10px;
+}
